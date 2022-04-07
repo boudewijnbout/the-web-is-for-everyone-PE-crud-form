@@ -1,16 +1,72 @@
 <!DOCTYPE html>
 <html lang="nl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CRUD Form | PE</title>
-  </head>
-  <body>
-      <h1>Hallo Daar!</h1>
 
-      <form action="">
-          <input type="text">
-      </form>
-  </body>
+<head>
+
+  <!-- Meta -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Title -->
+  <title>CRUD Form | PE</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&amp;family=Rubik:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <h1>Hallo Daar!</h1>
+
+  <section class="create-project-form-wrapper">
+
+    <!-- Add Project Form -->
+    <form action="/create-project">
+
+      <!-- Name -->
+      <div class="form-group">
+        <label for="name">Naam</label>
+        <input type="text" id="name" name="name">
+      </div>
+
+      <!-- Short Description -->
+      <div class="form-group">
+        <label for="short_description">Korte omschrijving</label>
+        <textarea name="short_description" id="short_description" name="short_description"></textarea>
+      </div>
+
+      <!-- Description -->
+      <div class="form-group">
+        <label for="description">Omschrijving</label>
+        <textarea name="description" id="description" name="description"></textarea>
+      </div>
+
+      <!-- Logo -->
+      <div class="form-group">
+        <label for="logo">Logo</label>
+        <input type="text" id="logo" name="logo">
+      </div>
+
+      <!-- Link -->
+      <div class="form-group">
+        <label for="link">Link</label>
+        <input type="text" id="link" name="link">
+      </div>
+
+      <!-- Main IMG -->
+      <div class="form-group">
+        <label for="main_img">Banner afbeelding</label>
+        <input type="text" id="main_img" name="maing_img">
+      </div>
+
+      <!-- Submit -->
+      <button type="submit">Voeg Project Toe</button>
+    </form>
+
+  </section>
+</body>
+
 </html>

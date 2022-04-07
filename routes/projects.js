@@ -8,4 +8,8 @@ router.get("/", (req, res) => {
   res.render('index');
 });
 
+router.get("/create-project", (req, res) => {
+  console.log("Formulier verstuurt!");
+})
+
 module.exports = router;
