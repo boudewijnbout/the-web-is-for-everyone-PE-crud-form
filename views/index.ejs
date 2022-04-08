@@ -19,47 +19,48 @@
 </head>
 
 <body>
-  <h1>Hallo Daar!</h1>
 
   <section class="create-project-form-wrapper">
 
+    <h1>Project toevoegen</h1>
+
     <!-- Add Project Form -->
-    <form action="/create-project">
+    <form action="/create-project" method="POST">
 
       <!-- Name -->
       <div class="form-group">
-        <label for="name">Naam</label>
+        <label for="name">Naam:</label>
         <input type="text" id="name" name="name">
       </div>
 
       <!-- Short Description -->
       <div class="form-group">
-        <label for="short_description">Korte omschrijving</label>
+        <label for="short_description">Korte omschrijving:</label>
         <textarea name="short_description" id="short_description" name="short_description"></textarea>
       </div>
 
       <!-- Description -->
       <div class="form-group">
-        <label for="description">Omschrijving</label>
+        <label for="description">Omschrijving:</label>
         <textarea name="description" id="description" name="description"></textarea>
       </div>
 
       <!-- Logo -->
       <div class="form-group">
-        <label for="logo">Logo</label>
+        <label for="logo">Logo:</label>
         <input type="text" id="logo" name="logo">
       </div>
 
       <!-- Link -->
       <div class="form-group">
-        <label for="link">Link</label>
+        <label for="link">Link:</label>
         <input type="text" id="link" name="link">
       </div>
 
       <!-- Main IMG -->
       <div class="form-group">
-        <label for="main_img">Banner afbeelding</label>
-        <input type="text" id="main_img" name="maing_img">
+        <label for="main_img">Banner afbeelding:</label>
+        <input type="text" id="main_img" name="main_img">
       </div>
 
       <!-- Submit -->
