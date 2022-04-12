@@ -1,7 +1,6 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# Chippr.dev PE CRUD Form
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+Dit project omvat een CRUD formulier wat nieuwe projecten kan toevoegen aan de Chippr API d.m.v SSR en Progressive Enhancement.
 
 ## Wireflow
 <!-- Toon hier de Wirefllow -->
@@ -12,7 +11,6 @@
 ## Code
 <!-- Toon hier de verschillende technieken die je gebruikt en hoe je dit met de CSS cascade en/of JS feature detect hebt gecodeerd -->
 <!-- documenteer het onderzoek met de browser ondersteuning in de WIKI van de leertaak -->
-
 
 ## Licentie
 
