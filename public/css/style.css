@@ -1,36 +1,4 @@
 /*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-html,
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
-}
-
-body {
-    background-color: var(--secondary-bg);
-    background-color: #f8f4f1;
-    font-family: "Inter", sans-serif;
-}
-
-/* Variables */
-:root {
-    --main-bg: #262626;
-    --secondary-bg: #f8f4f1;
-    --accent-bg: #f7c117;
-    --border-color: #e2e2e2;
-}
-  
-/*--------------------------------------------------------------
 # Create Project Form
 --------------------------------------------------------------*/
 
@@ -43,7 +11,7 @@ body {
 }
 
 .create-project-form-wrapper h1 {
-    background-color: var(--accent-bg);
+    background-color: #f7c117;
     display: inline-block;
     padding: .5rem .5rem;
     margin: -50% 0 0 2rem;
@@ -52,11 +20,33 @@ body {
 }
 
 .create-project-form-wrapper form {
-    display: flex;
-    flex-wrap: wrap;
     padding: 2rem;
 }
 
+.create-project-form-wrapper button {
+    margin-top: 1rem;
+    border-radius: 0.25rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #f7c117;
+    color: #262626;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.create-project-form-wrapper button:hover {
+    background-color: #e8b617;
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+.create-project-form-wrapper button:active {
+    transform: translateY(-1px) scale(0.95);
+}
+
+/*--------------------------------------------------------------
+# Form Group
+--------------------------------------------------------------*/
 .form-group {
     width: 100%;
     margin-bottom: 2rem;
@@ -73,7 +63,7 @@ body {
     display: inline-block;
     width: 2px;
     height: 25px;
-    background-color: var(--accent-bg);
+    background-color: #f7c117;
     margin-right: 0.5rem;
     position: relative;
     top: 0;
@@ -82,7 +72,7 @@ body {
 .form-group input, textarea {
     width: 100%;
     border-radius: 0.25rem;
-    border: 1px solid var(--border-color);
+    border: 1px solid #e2e2e2;
     line-height: 1.5;
     padding: 0.5rem;
     font-size: 0.9rem;
