@@ -1,5 +1,8 @@
 const createProjectForm = document.querySelector("#create-project-form");
 const apiUrl = "https://chipr.api.fdnd.nl/v1/project";
+const successMessage = document.querySelector(".success-msg");
+
+// Form inputs
 const nameInput = document.querySelector("#name");
 const shortDescriptionInput = document.querySelector("#short_description");
 const descriptionInput = document.querySelector("#description");
@@ -7,7 +10,7 @@ const logoInput = document.querySelector("#logo");
 const linkInput = document.querySelector("#link");
 const mainImgInput = document.querySelector("#main_img");
 
-// Listeners
+// Logics
 createProjectForm.addEventListener("submit", submitForm);
 
 /**
@@ -33,6 +36,9 @@ function submitForm(e) {
 
   // Send a request to the API   
   fetch(apiUrl, options).then((res) => {
+
+    successMessage.classList.add("visible");
+
     return console.log(res.json);
   });
 }
@@ -55,3 +61,4 @@ function getFormData() {
 
   return JSON.stringify(data);
 }
+

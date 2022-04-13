@@ -37,7 +37,9 @@ router.post("/create-project", (req, res) => {
     })
 
   // Return to index view
-  res.render("index");
+  res.render("index", {
+    successMessage: 'Bedankt! Het project is toegevoegd.'
+  });
 })
 
 module.exports = router;

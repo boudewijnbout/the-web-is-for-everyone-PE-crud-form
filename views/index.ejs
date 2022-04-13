@@ -30,6 +30,13 @@
 
     <!-- Add Project Form -->
     <form id="create-project-form" action="/create-project" method="POST">
+     
+      <p class="success-msg">Bedankt! Het project is toegevoegd.</p>
+      <% if (typeof successMessage !== "undefined") { %>
+        <p class="success-msg-ssr">
+          <%= successMessage %>
+        </p>
+      <% } %>
 
       <!-- Name -->
       <div class="form-group">
@@ -68,7 +75,7 @@
       </div>
 
       <!-- Submit -->
-      <button type="submit">Project toevoegen</button>
+      <button type="submit">Project toevoegen</button>    
     </form>
   </section>
 </body>
