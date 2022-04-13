@@ -3,7 +3,7 @@
 Dit project omvat een CRUD formulier wat nieuwe projecten kan toevoegen aan de Chippr API d.m.v SSR en Progressive Enhancement.
 
 ## Wireflow
-<img src="https://github.com/boudewijnbout/the-web-is-for-everyone-PE-crud-form/blob/main/public/images/IMG_0030.jpg" />
+<img width="500" src="https://github.com/boudewijnbout/the-web-is-for-everyone-PE-crud-form/blob/main/public/images/IMG_0030.jpg" />
 
 ## Breakdown
 <!-- Toon hier de Breakdown met de pseudo code en de verschillende lagen van Progressive enhancement -->
